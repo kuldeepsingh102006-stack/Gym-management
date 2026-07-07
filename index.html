@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymPro - Gym Management Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="container flex">
+      <div class="logo">Gym<span>Pro</span></div>
+
+      <input type="checkbox" id="nav-check">
+      <label for="nav-check" class="nav-btn"><i class="fa-solid fa-bars"></i></label>
+
+      <nav class="nav-links">
+        <ul class="flex">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li class="dropdown">
+            <a href="#services">Services <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-content">
+              <li><a href="#services">Membership Management</a></li>
+              <li><a href="#services">Product Sales</a></li>
+              <li><a href="#services">Multiple Gym Branches</a></li>
+              <li><a href="#services">Class Scheduling</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- showcase / hero -->
+  <section class="showcase" id="home">
+    <div class="container grid">
+      <div class="showcase-text">
+        <h1>Run your gym without the spreadsheet mess</h1>
+        <p>GymPro helps you manage members, staff, classes and product sales from one dashboard - whether you run one gym or several.</p>
+        <a href="#contact" class="btn btn-light">Get Started</a>
+      </div>
+      <div class="showcase-box">
+        <ul>
+          <li><i class="fa-solid fa-id-card"></i> Member Check-ins</li>
+          <li><i class="fa-solid fa-cash-register"></i> Point of Sale</li>
+          <li><i class="fa-solid fa-calendar-check"></i> Class Bookings</li>
+          <li><i class="fa-solid fa-chart-line"></i> Branch Reports</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- stats -->
+  <section class="stats">
+    <div class="container grid-4 text-center">
+      <div>
+        <h2>3</h2>
+        <p>Core Modules</p>
+      </div>
+      <div>
+        <h2>100%</h2>
+        <p>Responsive Design</p>
+      </div>
+      <div>
+        <h2>1</h2>
+        <p>Dashboard For All Branches</p>
+      </div>
+      <div>
+        <h2>24/7</h2>
+        <p>Access From Anywhere</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="l-heading text-center">Our Services</h2>
+      <div class="grid-3 py-2">
+        <div class="card">
+          <i class="fa-solid fa-id-card"></i>
+          <h3>Membership Management</h3>
+          <p>Track every member, their plan and renewal date without digging through registers.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-cash-register"></i>
+          <h3>Product Sales</h3>
+          <p>Sell supplements, merchandise and day passes and keep stock levels in check.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-building"></i>
+          <h3>Multiple Gym Branches</h3>
+          <p>Own more than one location? See attendance and sales across all of them together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- features -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="l-heading text-center">Why GymPro</h2>
+      <div class="grid-3 py-2">
+        <div class="feature">
+          <i class="fa-solid fa-bolt"></i>
+          <h3>Fast</h3>
+          <p>Check in a member or ring up a sale in seconds.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h3>Responsive</h3>
+          <p>Works on the front desk computer and on your phone.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-layer-group"></i>
+          <h3>Scalable</h3>
+          <p>Start with one gym, add more branches whenever you want.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cta -->
+  <section class="cta text-center" id="contact">
+    <div class="container">
+      <h2>Ready to get your gym organized?</h2>
+      <p>It only takes a few minutes to set up.</p>
+      <a href="#home" class="btn btn-light">Get Started</a>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container flex">
+      <p>&copy; 2025 GymPro. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="#home">Privacy Policy</a> | <a href="#home">Terms</a> | <a href="#contact">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
