@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymPro - Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="container flex">
+      <div class="logo">Gym<span>Pro</span></div>
+      <input type="checkbox" id="nav-check">
+      <label for="nav-check" class="nav-btn"><i class="fa-solid fa-bars"></i></label>
+
+      <nav class="nav-links">
+        <ul class="flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- page header -->
+  <section class="page-header text-center">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Have a question or want a demo? Send us a message.</p>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section class="contact-content">
+    <div class="container">
+      <form name="contactForm" onsubmit="return validateForm()" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+
+        <button type="submit" class="btn btn-light">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container flex">
+      <p>&copy; 2025 GymPro. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="about.html">Privacy Policy</a> | <a href="about.html">Terms</a> | <a href="contact.html">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
